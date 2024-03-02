@@ -3,9 +3,9 @@ const axios = require("axios"); // Import axios library
 const client = new websocket.client();
 
 console.log('starting websocket connection...')
-const APIKEY = "0b3ddb76-d94e-48ba-95a9-433e90b710fe"; // replace 
-const SUBSCRIPTIONID = "b91362d6-2a05-4606-be85-e4f557a77307"; // replace
-const DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1185871848920059994/nw5vhTrCS-I0gSrGZ2H6yDuTbsDsy-Gys_aL040Udn9LVZMqU9H08Y6YsvVz7zNI2m0e"; // replace with your Discord webhook URL
+const APIKEY = ""; // replace 
+const SUBSCRIPTIONID = ""; // replace
+const DISCORD_WEBHOOK_URL = ""; // replace with your Discord webhook URL
 
 client.on("connect", (connection) => {
   connection.on("message", (message) => {
